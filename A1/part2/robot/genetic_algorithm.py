@@ -207,7 +207,7 @@ class GeneticAlgorithm(object):
             fitness[candidate] = self.fitness_of_one_individual(candidate)
         lst = list(fitness.keys())
         weights= list(fitness.values())
-        print('Max Fitness:', np.max(fitness.values()))
+        print('Max Fitness:', np.max(weights))
         parents = random.choices(lst, weights, k=len(candidates))
         return parents
         # **** End of Your Code **** # 
