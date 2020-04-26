@@ -1,2 +1,6 @@
 .DS_Store
 .python-version
+A3/test/**
+A3/train/**
+A3/Raw+Images.rar
+A3/txt+files.zip
